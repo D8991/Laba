@@ -21,12 +21,12 @@ namespace WindowsFormsApplication3
             rand = new Random();
         }
 
-        private void Form1_Shown(object sender, EventArgs e)
+     //   private void Form1_Shown(object sender, EventArgs e)
         {
             this.Height = grbBasic.Top + grbBasic.Height + 50;
             txtCount.Focus();
         }
-
+      
         private void txtCount_TextChanged(object sender, EventArgs e)
         {
 
@@ -39,7 +39,10 @@ namespace WindowsFormsApplication3
         {
 
         }
+ private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
         private void btnCount_KeyPress(object sender, KeyPressEventArgs e)
         {
 
